@@ -29,7 +29,7 @@ public class Game extends Canvas implements Runnable, KeyListener{
 	public void tick() {
 		player.tick();
 	}
-	
+	//renderizando o jogo
 	public void render() {
 		BufferStrategy bs = this.getBufferStrategy();
 		if(bs == null) {
